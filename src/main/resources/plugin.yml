@@ -1,0 +1,17 @@
+name: KevlarKBmodifier
+version: 1.0
+main: kevlar.kevlarkbmodifierolderversion.Kevlarkbmodifierolderversion
+api-version: 1.18
+description: Adds configurable knockback for arrows and snowballs.
+
+commands:
+  kevlarkbreload:
+    description: Reload the KevlarKBModifier configuration.
+    usage: /<command>
+    permission: kevlarkbmodifier.reload
+    permission-message: You don't have permission to use this command!
+permissions:
+  kevlarkbmodifier.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
+

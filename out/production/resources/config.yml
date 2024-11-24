@@ -1,0 +1,5 @@
+# Default knockback multipliers for projectiles
+knockback:
+  arrow: 1.5      # Modify this value for arrow knockback strength
+  snowball: 2.0   # Modify this value for snowball knockback strength
+  egg: 1.5        # Modify this value for egg knockback strength
